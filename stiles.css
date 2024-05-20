@@ -1,0 +1,180 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+    padding-header: 230px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+.mt-30 {
+    margin-top: 100px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header img {
+    width: 20%;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.logo {
+    width: 80%;
+    height: auto;
+}
+
+.red-line {
+    border: none;
+    border-top: 6px solid red;
+    width: 200%;
+    border-left: 60px;
+}
+
+.navbar-nav {
+    width: 130%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-item {
+    padding: 0 10px;
+    flex: 0 0 auto;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 115%;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
+.nav-link:hover {
+    color: #666;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider-horizontal {
+    border-top: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divider-vertical {
+    border-right: 2px solid #000;
+    height: 100%;
+}
+
+.red-text {
+    color: red;
+}
+
+.large-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.divider-vertical {
+    width: 1px;
+    background-color: #000;
+    height: auto;
+    display: inline-block;
+}
+
+.divider-horizontal {
+    border-top: 2px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.elezioni-btn {
+    background-color: #004085;
+    border-color: #004085;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+.elezioni-btn:hover {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.custom-btn {
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.custom-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.card {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.custom-button {
+    background-color: #f0f0f0;
+    color: red;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#loadMoreBtn {
+    background-color: red;
+    font-weight: bold;
+    border-color: red;
+    border-width: 2px;
+}
+
+.row-cannes {
+    background-color: #f2f2f2;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container-fluid cannes {
+    background-color: #f2f2f2;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
